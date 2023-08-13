@@ -39,7 +39,6 @@
 ### 📌 FrontEnd
 |기술|버전|
 |----|----|
-|NodeJs|18.17.0|
 |React|18.2.0|
 |react-dom|18.2.0|
 |react-router|6.14.2|
