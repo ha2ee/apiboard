@@ -42,7 +42,7 @@ public class MemberController {
     }
 
     //로그인
-    @PostMapping
+    @PostMapping("/login")
     public ResponseEntity<?> login(@Validated @RequestBody LoginRequest form, BindingResult bindingResult,
                                    HttpServletRequest request) {
         if(bindingResult.hasErrors()) {

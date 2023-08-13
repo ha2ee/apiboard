@@ -22,7 +22,7 @@ export default function LoginForm() {
       alert('아이디, 패스워드를 입력해주세요');
       return null;
     }
-    fetch(`http://localhost:8080/member/`, {
+    fetch(`http://localhost:8080/member/login`, {
       method: "POST",
       headers : {
         'Content-Type' : 'application/json',
