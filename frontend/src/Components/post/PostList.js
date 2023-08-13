@@ -50,7 +50,7 @@ export default function PostList() {
 
       <div className="d-flex justify-content-between align-items-center mb-3">
         <div></div>
-        <button className="btn btn-secondary" onClick={!auth ? () => alert('로그인한 사람만 글을 쓸 수 있습니다.') : toggleModal}>글쓰기</button>
+        <button className="btn btn-secondary" onClick={!auth ? () => alert('로그인 한 사용자만 글을 작성 할 수 있습니다.') : toggleModal}>글쓰기</button>
       </div>
 
       {/* 모달 */}

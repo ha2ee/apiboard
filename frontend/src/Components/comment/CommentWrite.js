@@ -16,7 +16,7 @@ export default function CommentWrite({ postId, commentListRefresh}) {
 
     const createComment = () => {
         if(!auth) {
-            alert("로그인 해주세요");
+            alert("로그인 한 사용자만 댓글을 작성 할 수 있습니다.");
             return;
         }
 
