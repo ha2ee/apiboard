@@ -9,12 +9,13 @@
 
 # 📚목차
 
-* [프로젝트 구조]
-* [사용 기술]
-* [구현 기능]
-* [기능 실행화면]
-* [API 명세서]
-* [ERD 설계]
+* [프로젝트 구조](#-프로젝트-구조)
+* [사용 기술](#-사용-기술)
+* [구현 기능](#-구현-기능)
+* [기능 실행화면](#-기능-실행화면)
+* [API 명세서](#-API-명세서)
+* [ERD 설계](#-ERD-설계)
+
 
 # 📘 프로젝트 구조
 ### 📌 BackEnd
@@ -23,7 +24,7 @@
 ### 📌 FrontEnd
 <img width="575" alt="frontend-project-structure" src="https://github.com/ha2ee/apiboard/assets/115638416/bc543be2-1862-4758-a1db-d6566bb7193a">
 
-# 🕹사용 기술
+# 🕹 사용 기술
 ### 📌 BackEnd
 |기술|버전|
 |----|----|
@@ -123,3 +124,32 @@
 <img width="1000" alt="commentdelete3" src="https://github.com/ha2ee/apiboard/assets/115638416/835d140b-b2ff-45bf-891e-289cbf17a37b">
 
 
+## 회원 기능
+### 회원가입
+* 회원가입 시 아이디 중복을 체크합니다.
+<img width="1000" alt="sighup-check" src="https://github.com/ha2ee/apiboard/assets/115638416/cb12fa3f-a073-4f5f-8e02-02a45902a19b">
+
+### 로그인 / 로그아웃
+* 로그인  
+<img width="1000" alt="login" src="https://github.com/ha2ee/apiboard/assets/115638416/31b5e220-b72b-4362-b9e3-309972c2766e">
+
+* 로그인을 완료하면 브라우저의 `Local Storage`에 사용자 `id`와 `JWT` 정보를 저장합니다.
+<img width="1000" alt="login-after-devtool" src="https://github.com/ha2ee/apiboard/assets/115638416/3b7ca349-d01f-45b7-a48d-0c6e1d6c8503">
+
+* 로그아웃
+<img width="1000" alt="logout" src="https://github.com/ha2ee/apiboard/assets/115638416/bc9bcb69-ba38-4dd7-a281-62b29d9b1830">
+
+* 로그아웃을 완료하면 브라우저의 `Local Storage`의 내용도 삭제합니다.
+<img width="1000" alt="logout-after-devtool" src="https://github.com/ha2ee/apiboard/assets/115638416/9e1ae32b-c048-4cee-875a-6635e6b66bba">
+
+
+# 📜 API 명세서  
+HTTP 메서드를 통해 행위를 명시 할 수 있도록 RESTful 방식으로 설계했습니다.  
+
+
+<img alt="api-definition" src="https://github.com/ha2ee/apiboard/assets/115638416/0b294ecc-ce24-4122-acea-1c3824e90ecd">
+
+# 🎇 ERD 설계
+
+
+<img alt="erd" src="https://github.com/ha2ee/apiboard/assets/115638416/4fca94b2-08c2-46f5-981e-f98a6e893b9b">
