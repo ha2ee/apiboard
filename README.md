@@ -3,7 +3,6 @@
 `게시판` 웹 애플리케이션 입니다.  
 `2023-08-10 ~ 2023-08-13` 동안 `Spring Boot`와 `React`를 사용해 구현했습니다.
 
-[CICD_PROJECT](https://github.com/ha2ee/cicd_project) 템플릿을 활용 하였으며,  
 이 프로젝트를 통해 이루고자 한 목표는 `FrontEnd - BackEnd 통신 이해`였습니다.  
 프로젝트 구현 과정 동안, 회원 인증/인가를 고민하며 코드를 작성하였습니다.
 
